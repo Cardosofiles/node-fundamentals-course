@@ -1,39 +1,27 @@
 import http from "node:http";
 
-/**
- * - Crair usuários
- * - Listagem de usuários
- * - Edição de Usuários
- * - Remoção de Usuários
- *
- * - HTTP
- *  - Método
- *  - URL
- *
- * GET, POST, PUT, PATCH, DELETE
- *
- * GET => Bucar um recurso do back-end
- * POST => Criar um recurso no back-end
- * PUT => Atualizar um recurso no back-en
- * PATCH => Atualizar um recurso específico no back-end
- * DELETE => Deletar um recurso no back-end
- *
- * GET / users => Buscando usuários do back-end
- * POST / users => Criar um usuário no back-end
- */
+const users = [];
 
 const server = http.createServer((req, res) => {
   const { method, url } = req;
 
   if (method === "GET" && url === "/users") {
-    return res.end("Listando os usuários");
+    return res
+      .setHeader("Content-type", "application/json")
+      .end(JSON.stringify(users));
   }
 
   if (method === "POST" && url === "/users") {
-    return res.end("Criando um novo usuário");
+    users.push({
+      id: 1,
+      name: "John Doe",
+      email: "johndoe@example.com",
+    });
+    console.log(users);
+    return res.writeHead(201).end();
   }
 
-  return res.end("hello Javascript and TypeScript");
+  return res.writeHead(404).end("Not Found");
 });
 
 server.listen(3333, () => {
