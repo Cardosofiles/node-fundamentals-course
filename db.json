@@ -1,14 +1,19 @@
 {
   "users": [
     {
-      "id": "a8de206b-0591-4498-8df2-256254a9b858",
+      "id": "bf13aa56-1377-42cd-9251-9cca285f2f0c",
+      "name": "Diego Fernandes",
+      "email": "diego@rocketseat.com.br"
+    },
+    {
+      "id": "401e905b-7174-437f-b572-34d8cec49802",
       "name": "João Batista",
       "email": "cardosofiles@outlook.com"
     },
     {
-      "id": "bf13aa56-1377-42cd-9251-9cca285f2f0c",
-      "name": "Diego Fernandes",
-      "email": "diego@rocketseat.com.br"
+      "id": "68d96e1e-4a46-48b1-99cc-999cdc414beb",
+      "name": "João Batista",
+      "email": "cardosofiles@outlook.com"
     }
   ]
 }
