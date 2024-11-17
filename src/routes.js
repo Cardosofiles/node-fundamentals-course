@@ -24,7 +24,6 @@ export const routes = [
       }
 
       const { name, email } = req.body;
-      const users = database.select("users") || [];
 
       const user = {
         /**

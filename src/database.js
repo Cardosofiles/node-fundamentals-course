@@ -1,11 +1,8 @@
-/**
- * { "users": [{...}]}
- * # - Ao adicionar na definição da class, se torna uma propriedade privada
- */
-
 import fs from "node:fs/promises";
+import path from "node:path"; // Importa o módulo path para manipular caminhos de arquivos
 
-const databasePath = new URL("db.json", import.meta.url);
+// Define o caminho para a raiz do projeto
+const databasePath = path.resolve("db.json");
 console.log(databasePath);
 
 export class Database {
