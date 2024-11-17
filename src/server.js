@@ -1,3 +1,4 @@
+import { randomUUID } from "node:crypto";
 import http from "node:http";
 import { Database } from "./database.js";
 import { json } from "./middlewares/json.js";
@@ -26,7 +27,12 @@ const server = http.createServer(async (req, res) => {
     const users = database.select("users") || [];
 
     const user = {
-      id: users.length + 1,
+      /**
+       * Duas opção para gerar o ID
+       * "id: users.length + 1", cria um sequencial
+       * "id: randomUUID()", gera um id aleatório para o registro
+       */
+      id: randomUUID(),
       name,
       email,
     };
