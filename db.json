@@ -1,1 +1,14 @@
-{"users":[{"id":"96f91870-115b-44d5-a2f5-d56d0fd50d55","name":"João Batista","email":"cardosofiles@outlook.com"}]}
+{
+  "users": [
+    {
+      "id": "a8de206b-0591-4498-8df2-256254a9b858",
+      "name": "João Batista",
+      "email": "cardosofiles@outlook.com"
+    },
+    {
+      "id": "bf13aa56-1377-42cd-9251-9cca285f2f0c",
+      "name": "Diego Fernandes",
+      "email": "diego@rocketseat.com.br"
+    }
+  ]
+}
