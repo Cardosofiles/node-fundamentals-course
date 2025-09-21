@@ -1,6 +1,22 @@
-# Node Fundamentals Course
+<div align="center">
+
+<h1 align="center">🚀 Curso Introdutório de Node.js</h1>
+
+### Informações
+
+![Instituição](https://img.shields.io/badge/Instituição-Rocketseat-0078D4?style=for-the-badge&logo=azuredevops)
+![Curso](https://img.shields.io/badge/Curso-Node.js-4B8BBE?style=for-the-badge&logo=github)
+![Professor](https://img.shields.io/badge/Professor-Diego%20Fernandes-FFCA28?style=for-the-badge&logo=linkedin)
+
+**Instituição:** [Rocketseat](https://www.rocketseat.com.br/)  
+**Curso:** Introdução ao Node.js  
+**Professor:** [Diego Schell Fernandes](https://www.linkedin.com/in/diego-schell-fernandes/)
 
 Repositório com o código-fonte desenvolvido durante o curso introdutório de Node.js. O objetivo é apresentar, de forma prática, conceitos essenciais do desenvolvimento backend com Node, incluindo manipulação de arquivos, rotas HTTP e lógica de negócios básica.
+
+</div>
+
+---
 
 ## Principais Funcionalidades e Casos de Uso
 
@@ -45,20 +61,24 @@ node-fundamentals-course/
 ### Passo a passo
 
 1. **Clone o repositório**
+
    ```bash
    git clone https://github.com/Cardosofiles/node-fundamentals-course.git
    cd node-fundamentals-course
    ```
 
 2. **Instale as dependências (se houver)**
+
    ```bash
    npm install
    ```
 
 3. **Configure variáveis de ambiente (se necessário)**
+
    - Se o projeto exigir, crie um arquivo `.env` com as variáveis necessárias.
 
 4. **Execute o servidor**
+
    ```bash
    node src/index.js
    # ou conforme instrução no package.json
@@ -70,9 +90,11 @@ node-fundamentals-course/
 ## Como Executar Testes
 
 Se existirem testes automatizados:
+
 ```bash
 npm test
 ```
+
 Caso contrário, recomenda-se testar manualmente via ferramentas como [Postman](https://www.postman.com/) ou [curl](https://curl.se/).
 
 ## Exemplos de Uso dos Endpoints
@@ -141,5 +163,13 @@ Contribuições e sugestões são bem-vindas!
 <a href="https://cardosofiles.dev/" target="_blank">
   <img src="https://img.shields.io/badge/Portfólio-222222?style=for-the-badge&logo=about.me&logoColor=white" alt="Portfólio"/>
 </a>
+
+</div>
+
+---
+
+<div align="right">
+
+[⬆️ Voltar ao topo](#informações)
 
 </div>
